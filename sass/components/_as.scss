@@ -1,0 +1,23 @@
+.pages {
+    font-family: 'Lobster', cursive !important;
+    font-size: 2rem !important;
+    display: inline-flex !important;
+}
+
+.page {
+    border: 2px solid beige !important;
+    color: wheat !important;
+    border-radius: 10% !important;
+    padding: 5px !important;
+    margin: 10px !important;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $colour-4 !important;
+        color: $colour-2 !important;
+    }
+}
+.page-active {
+        background-color: $colour-4 !important;
+        color: $colour-2 !important;
+}

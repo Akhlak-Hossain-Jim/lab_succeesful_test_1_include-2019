@@ -1,0 +1,12 @@
+.button-lb-curved{
+    background-color: $colour-4;
+    padding: 8px;
+    border-radius: 2px 2px 2px 20px;
+    text-align: center;
+    text-decoration: wavy;
+    cursor: pointer;
+
+        &:hover {
+            zoom: 106%;
+        }
+}

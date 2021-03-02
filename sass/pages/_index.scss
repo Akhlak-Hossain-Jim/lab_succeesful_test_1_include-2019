@@ -1,0 +1,14 @@
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    .intro-text{
+        height: fit-content;
+        width: auto;
+        background-color: $colour-7;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .intro-picture{
+        padding: 10px !important;
+    }
+}

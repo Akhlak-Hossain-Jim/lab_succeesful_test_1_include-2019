@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // 10px div by def of 16px
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    //background: $colour-secondary;
+}
+
+hr {
+    
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 251, 2, 0), rgba(255, 230, 0, 0.75), rgba(255, 251, 2, 0));
+}

@@ -1,0 +1,27 @@
+@mixin border($colour:$colour-3) {
+    border: .1rem solid $colour;
+}
+
+@mixin hvr {
+    cursor: pointer;
+    &:hover{
+        background: $colour-7;
+        color: $colour-4;
+    }
+}
+
+@mixin btn {
+    padding: 6.7;
+    @include border;
+    color: $colour-3;
+    //background: $colour-secondary;
+    cursor: pointer;
+    &:hover{
+        background: $colour-7;
+        color: $colour-4;
+    }
+    &--full-width {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
